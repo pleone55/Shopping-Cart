@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.dashboard {
+	float: right;
+}
+
+.form-box {
+	border: solid black;
+	width: 300px;
+	text-align: center;
+	margin-left: 450px;
+	padding: 10px 0 10px 0;
+	position: relative;
+	top: 150px;
+}
+
+.form-box, .dashboard {
+	display: block;
+}
